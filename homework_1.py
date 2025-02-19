@@ -19,6 +19,6 @@ print(a1)
 print(a1 == a)
 
 a2 = 'Он в аду давно'
-a3 = a2[::-1]
-print(a3)
-print(a2 == a3)
+a3 = a2.replace(' ','').upper()
+a4 = a3[::-1]
+print(a4 == a3 )
